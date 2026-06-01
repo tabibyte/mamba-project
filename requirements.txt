@@ -1,0 +1,26 @@
+# Temel Derin Öğrenme Çerçevesi (PyTorch)
+# Not: PyTorch'un CUDA uyumlu versiyonunun kurulu olduğu varsayılmıştır.
+torch>=2.1.0
+torchaudio
+torchvision
+
+# Veri İşleme ve Klasik Makine Öğrenmesi
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Biyomedikal Sinyal İşleme (PhysioNet Verileri İçin)
+wfdb>=4.1.0
+
+# Görselleştirme ve İlerleme Takibi
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# --- DURUM UZAY MODELLERİ (SSM) BAĞIMLILIKLARI ---
+# DİKKAT: Aşağıdaki paketleri kurarken pip ile '--no-build-isolation' 
+# bayrağını (flag) kullanmanız şiddetle tavsiye edilir. 
+# Örnek kurulum: pip install causal-conv1d>=1.4.0 mamba-ssm --no-build-isolation
+causal-conv1d>=1.4.0
+mamba-ssm>=1.1.1
