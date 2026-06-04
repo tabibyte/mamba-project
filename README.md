@@ -1,7 +1,7 @@
 # Durum Uzay Modelleri ile Çok Etiketli EKG Sınıflandırması
 **Multi-Label ECG Classification with Mamba State Space Models**
 
-Bu depo, 12 kanallı EKG sinyallerinde çok etiketli (multi-label) kardiyak anormalliklerin tespiti için geliştirilen **1 Boyutlu Çift Yönlü Gelişmiş Mamba (1D Bidirectional Advanced Mamba)** ve **1 Boyutlu melez CNN-Transformer** modellerinin karşılaştırmalı analizini içermektedir. 
+Bu depo, 12 kanallı EKG sinyallerinde çok etiketli (multi-label) kardiyak anormalliklerin tespiti için geliştirilen **1 Boyutlu Çift Yönlü Gelişmiş Mamba (1D Bidirectional Advanced Mamba)** ve **1 Boyutlu hibrit CNN-Transformer** modellerinin karşılaştırmalı analizini içermektedir. 
 
 Çalışma, yeni nesil Durum Uzay Modellerinin (State Space Models - SSM) klinik EKG analizinde standart Transformer mimarilerine karşı tanısal doğruluğunu (özellikle imbalans/dengesiz veri setlerindeki AUPRC başarımını) ve donanımsal verimliliğini araştırmaktadır.
 
