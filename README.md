@@ -41,7 +41,7 @@ Modeller, çok merkezli verilerin doğası gereği barındırdığı farklı ör
 ## Bulgular ve Karşılaştırmalı Performans
 
 ### Sınıflandırma Başarımı (30. Epok Nihai Değerleri)
-Mamba mimarisi, özellikle nadir görülen EKG patolojilerinin tespitini gösteren **AUPRC** (Hassasiyet-Duyarlılık) metriğinde ezici bir üstünlük sağlamıştır.
+Mamba mimarisi, özellikle nadir görülen EKG patolojilerinin tespitini gösteren **AUPRC** (Hassasiyet-Duyarlılık) metriğinde üstünlük sağlamıştır.
 
 | Veri Seti | Model | Makro AUC | Makro AUPRC |
 | :--- | :--- | :--- | :--- |
@@ -57,7 +57,7 @@ Mamba mimarisi, özellikle nadir görülen EKG patolojilerinin tespitini göster
 *(Not: Chapman verisindeki Mamba AUPRC düşüşünün temel nedeni, değişken uzunluklu sinyalleri 10 saniyeye zorlamak için atılan yapay sıfır dolgularının (zero-padding), Mamba'nın Global Max Pooling katmanında yarattığı gradyan hassasiyetidir.)*
 
 ### Hesaplama Maliyeti ve Verimlilik Analizi
-Aşağıdaki değerler NVIDIA Tesla T4 GPU üzerinde elde edilmiştir. Mamba, çok daha düşük RAM ayak izi ve daha hızlı çıkarım süresi ile giyilebilir kardiyoloji teknolojileri (Edge AI) için ideal bir profil çizmiştir.
+Aşağıdaki değerler NVIDIA Tesla T4 GPU üzerinde elde edilmiştir. Mamba, çok daha düşük RAM ayak izi ve daha hızlı çıkarım süresi ile giyilebilir kardiyoloji teknolojileri (Edge AI) için daha uyarlanabilir.
 
 | Özellik | 1B Çift Yönlü Mamba | 1B CNN-Transformer |
 | :--- | :--- | :--- |
